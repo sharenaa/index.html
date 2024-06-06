@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html">Collection</a></li>
+        
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="collection">
+            <h2>Collection</h2>
+            <div class="collection-container">
+                <div class="collection-item" id="labs">
+                    <a href="labs.html">
+                        <h3>Labs</h3>
+                        <p>Explore various lab assignments.</p>
+                    </a>
+                </div>
+                <div class="collection-item" id="projects">
+                    <a href="projects.html">
+                        <h3>Projects</h3>
+                        <p>Discover different projects completed.</p>
+                    </a>
+                </div>
+                <div class="collection-item" id="games">
+                    <a href="games.html">
+                        <h3>Games</h3>
+                        <p>Check out various game developments.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Sharena Sharif's Portfolio</p>
+    </footer>
+</body>
+</html>
 
