@@ -1,55 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharena's Portfolio</title>
-     <link href="styles.css" type="text/css" rel="stylesheet">"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Nourish by Sharena Sharif</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #111;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 30%;
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 2em 1em;
+    }
+    .sidebar img {
+      width: 70%;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    .main {
+      width: 70%;
+      padding: 2em;
+    }
+    h1, h2, h3 {
+      color: #111;
+    }
+    .section {
+      margin-bottom: 2em;
+    }
+    .icon-title {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    .icon-title span {
+      margin-left: 0.5em;
+      font-size: 1.2em;
+    }
+    nav {
+      text-align: right;
+      margin-bottom: 1em;
+    }
+    nav a {
+      margin-left: 1em;
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-<center>
- <h1> My Github Portfolio <img src="mea.jpg" alt="me" width="50px"></h1>
-</center>
-  
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="collection.html">Collection</a></li>
-                <li><a href="#reflection">Reflection</a></li>
-            </ul>
-        </nav>
-    </header>
+  <div class="container">
+    <div class="sidebar">
+      <img src="/mnt/data/2.JPG" alt="Pepita Photo">
+      <p>in</p>
+    </div>
+    <div class="main">
+      <nav>
+        <a href="#pitch">PITCH</a>
+        <a href="#theme">THEME</a>
+        <a href="#why">WHY</a>
+      </nav>
+      <h2><em>"Small actions can grow into global impact—start with a seed."</em></h2>
+      <h1>"NatureNourish"</h1>
+      <h3>Sharena Sharif (HS Junior)</h3>
+      <p><strong>Aspiring Game Designer</strong></p>
+      <iframe src="/mnt/data/1.JPG" title="Game Screenshot"></iframe>
 
-    <main>
-        <section id="home">
-            <h1>Welcome to My Portfolio</h1> 
-            <p>This is a sophomore Portfolio for Web Development class. In this site, you will be able to review my work over this educational year. Read more for specifications of what will be provided. </p>
-        </section>
+      <div id="pitch" class="section">
+        <div class="icon-title">
+          🎯 <span>PITCH</span>
+        </div>
+        <p>NatureNourish is</p>
+      </div>
 
-        <section id="collection">
-            <h2>Collection</h2>
-            <p></p>
-            <ul>
-                <li>All Labs</li>
-                <li>All Projects</li>
-                <li>All Games</li>
-                <li>Sample of other work</li>
-            </ul>
-            <p></p>
-        </section>
+      <div id="theme" class="section">
+        <div class="icon-title">
+          🌱 <span>THEME – Nurture Yourself with Nature</span>
+        </div>
+        <p>This game explores the connection between mental health and the environment. The more the player nurtures nature, the brighter and more calming the world becomes. The game mechanics reflect the message: you must take care of the world around you to move forward and feel at peace.</p>
+      </div>
 
-        <section id="reflection">
-            <h2>Reflection</h2>
-            <p>View my reflections page to overview my key takeaways and lessons I have gained this year. </p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2024 Sharena Sharif's Portfolio</p>
-    </footer>
+      <div id="why" class="section">
+        <div class="icon-title">
+          🧠 <span>MY WHY</span>
+        </div>
+        <p>I have always</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
-
-
-
